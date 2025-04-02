@@ -25,6 +25,46 @@ public class DetalleCompra {
 
     public DetalleCompra() {
     }
+
+    public int getIdDetalleCompra() {
+        return idDetalleCompra;
+    }
+
+    public void setIdDetalleCompra(int idDetalleCompra) {
+        this.idDetalleCompra = idDetalleCompra;
+    }
+
+    public Compra getCompra() {
+        return compra;
+    }
+
+    public void setCompra(Compra compra) {
+        this.compra = compra;
+    }
+
+    public Producto getProducto() {
+        return producto;
+    }
+
+    public void setProducto(Producto producto) {
+        this.producto = producto;
+    }
+
+    public int getCantidad() {
+        return cantidad;
+    }
+
+    public void setCantidad(int cantidad) {
+        this.cantidad = cantidad;
+    }
+
+    public float getPrecioUnitario() {
+        return precioUnitario;
+    }
+
+    public void setPrecioUnitario(float precioUnitario) {
+        this.precioUnitario = precioUnitario;
+    }
     
     
 }

@@ -29,6 +29,46 @@ public class Compra {
 
     public Compra() {
     }
+
+    public int getIdCompra() {
+        return idCompra;
+    }
+
+    public void setIdCompra(int idCompra) {
+        this.idCompra = idCompra;
+    }
+
+    public Empleado getEmpleado() {
+        return empleado;
+    }
+
+    public void setEmpleado(Empleado empleado) {
+        this.empleado = empleado;
+    }
+
+    public Date getFechaCompra() {
+        return fechaCompra;
+    }
+
+    public void setFechaCompra(Date fechaCompra) {
+        this.fechaCompra = fechaCompra;
+    }
+
+    public float getTotalCompra() {
+        return totalCompra;
+    }
+
+    public void setTotalCompra(float totalCompra) {
+        this.totalCompra = totalCompra;
+    }
+
+    public List<DetalleCompra> getDetalles() {
+        return detalles;
+    }
+
+    public void setDetalles(List<DetalleCompra> detalles) {
+        this.detalles = detalles;
+    }
     
     
 }

@@ -30,6 +30,54 @@ public class Venta {
 
     public Venta() {
     }
+
+    public int getIdVenta() {
+        return idVenta;
+    }
+
+    public void setIdVenta(int idVenta) {
+        this.idVenta = idVenta;
+    }
+
+    public Cliente getCliente() {
+        return cliente;
+    }
+
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
+    }
+
+    public Empleado getEmpleado() {
+        return empleado;
+    }
+
+    public void setEmpleado(Empleado empleado) {
+        this.empleado = empleado;
+    }
+
+    public Date getFechaVenta() {
+        return fechaVenta;
+    }
+
+    public void setFechaVenta(Date fechaVenta) {
+        this.fechaVenta = fechaVenta;
+    }
+
+    public float getTotalVenta() {
+        return totalVenta;
+    }
+
+    public void setTotalVenta(float totalVenta) {
+        this.totalVenta = totalVenta;
+    }
+
+    public List<DetalleVenta> getDetalles() {
+        return detalles;
+    }
+
+    public void setDetalles(List<DetalleVenta> detalles) {
+        this.detalles = detalles;
+    }
     
     
 }
